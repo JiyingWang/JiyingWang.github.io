@@ -11,6 +11,8 @@ library(plotly)
 library(p8105.datasets)
 library(dplyr)
 library(rnoaa)
+library(httr)
+library(jsonlite)
 ```
 
 ## `Instacart` Visualization
@@ -48,9 +50,14 @@ plot2 = df2 |>
 plot2
 ```
 
-## `Restaurant Inspections` Visualization
+## `rest_inspec` Visualization
+
+```{r}
+data(rest_inspec)
+```
 
 ```{r}
 
+  
 ```
 
