@@ -5,12 +5,30 @@ output:
     toc: true
     toc_float: true
 ---
+<br>
 
-# Welcome to Claire's Personal Website 
+## Welcome to Claire's Personal Website 
 
-Links to the [Experiences](experiences.html) and [Projects](projects.html) page.
+<br> **Self Introduction**:
+<br>Hi, I am Jiying Wang, a first year master student in Biostatistics, with a track of statistical genetics.
+<br>Here are the links to the [Experiences](experiences.html), [Projects](projects.html), and [Plotly](plotly.html) page. You can see my academic background, working experience, as well as some plots I made there.
 
-Links to [Plotly](plotly.html) stuff.
+## Fun Facts about Me
+<br> **Cat Person**:
+<br> Let me introduce you my cat. His name is Simba because he's such a BIG cat, just like a lion (or tiger).
+![](Simba.jpg)
+
+<br>**Love Traveling**
+<br> I have a great passion of traveling. Here are some pictures of Alaska, San Francisco, and Kyoto. 
+![](Alaska.jpeg)
+![](SF.jpeg)
+![](Kyoto.jpeg)
+
+
+
+
+
+
 
 
 

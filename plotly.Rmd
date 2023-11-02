@@ -60,7 +60,7 @@ data(rest_inspec)
 plot3 = rest_inspec |>
   select(boro, cuisine_description, grade, score) |>
   filter(grade == "C") |>
-  plot_ly(x = ~boro, y = ~score, color = ~cuisine_description, type = "box", colors = "viridis")
+  plot_ly(x = ~boro, y = ~score, color = ~cuisine_description, type = "box", colors = "viridis") 
 
 plot3
 ```
