@@ -35,15 +35,15 @@ According to the plot, we can see that people reorder "produce" the most, follow
 ## `NY NOAA` Visualization
 
 ```{r message = FALSE}
-df2 = read_csv("nynoaadat/nynoaadat.csv")
+df2 = read_csv("nynoaadat/nynoaadat.csv") |>
+    mutate(date = format(date, format = "%Y%m%d")) |>
+  select(id, date, tmin, prcp) |>
+  drop_na(tmin) |>
+  filter(tmin < -300)
 ```
 
 ```{r}
 plot2 = df2 |>
-  mutate(date = format(date, format = "%Y%m%d")) |>
-  select(id, date, tmin, prcp) |>
-  drop_na(tmin) |>
-  filter(tmin < -300) |>
   plot_ly(x = ~tmin, y = ~date, color = ~tmin,
     type = "scatter", mode = "markers", alpha = 0.5)
 
