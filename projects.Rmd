@@ -1,0 +1,24 @@
+---
+title: "Skills and Projects"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Skills
+
+**Technical Skills**: Python (Pandas, Sklearn, Tensorflow), SQL, Excel, R, Tableau, Power BI, Microsoft Suites
+<br>**Data Skills**: Statistial Analysis, Data Mining, EAD, Data Visualization, Machine Learning, Reporting 
+<br>**Language**: English, Mandarin, Korean, Japanese
+
+## Projects
+
+**Winner Prediction of League of Legends (Python, Machine Learning)** March 2022 - June 2022
+<br>**EDA**: Extracted raw in-game data through Riot Games API, conducted data cleaning, visualization, feature engineering to support Machine Learning Models.
+<br>**ML Model**: Performed parameter tuning and cross-validation on training data, used multiple ML models (SVM, Logistic Regression, Decision Tree and Random Forest) to predict game winner, and achieved 0.73 accuracy on testing data.
+<br>
+<br>**Vaccination Rate and State’s Economy Recovery (Python, Tableau)** January 2022 - March 2022 
+<br>**Data Manipulatio**n: Collected macroeconomic factors and the COVID-19 vaccination rate from multiple public sources, cleaned and aggregated the data to state-level.
+**Statistical Analysis**: Performed correlation analysis between the COVID-19 vaccination rate and economic indicators, and identified trends.
+**Data Visualization**: Created map-based and time-series Dashboard (Tableau) to visualize the trends, showing the high vaccination rate had a positive effect on economic recovery.

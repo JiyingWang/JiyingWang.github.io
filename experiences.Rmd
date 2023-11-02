@@ -1,0 +1,52 @@
+---
+title: "Academic and Professional Experience"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## Education
+
+**Columbia University** New York, NY  
+*Master of Biostatistics* September 2023 - May 2025  
+
+**University of California San Diego** San Diego, CA  
+*Bachelor of Science Degree* September 2019 - June 2023
+
+## Professional Experience
+**Capgemini Consulting (China) Co., Ltd** Remote 
+<br>*Consultant Assistant* February 2022 - June 2022
+<br>• Collected employee’s training data, cleaned data using Excel functions, created histogram in Power BI to visualize and track effectiveness and popularity of training courses and identified improvement opportunities in course settings.
+<br>• Researched on marketing campaigns and business models of Bilibili and Tiktok, conducted data cleaning and EDA in
+Python, completed an industry research report and presented to mentors and colleagues.
+<br>• Participated in the Technovision project, led external client meetings with BMW technicians, communicated clients’
+needs to internal architects, and helped clients to understand newly designed methodology.
+<br>**Capgemini AIE** Remote
+<br>*Business Analysis Intern* December 2021 - February 2022
+<br>• Researched on secondary water quality monitoring products, analyzed enterprise data, created industry profiles
+showcasing strengths, weaknesses and core competencies. and facilitated clients’ business planning.
+<br>• Analyzing the characteristics and competency of major players in the smart healthcare industry, provided suggestions
+for clients on selecting business partners based on their unique circumstances.
+<br>**Unicloud Technology Co., Ltd.** Beijing, China Product
+<br>*Manager Intern* May 2021 - August 2021
+<br>• Participated in the end-to-end design&launch of Smart City Application for Hohhot (a capital city in China).
+<br>• Researched on markets’ needs, users’ pain points and collected competing products data through a CRM platform,designed metrics and created Dashboards that track market and product related data.
+<br>• Presented the prototype of the Smart City APP to 20+ clients (including major banks and government), built an on-going feedback, identified business opportunities, and helped create a user-friendly APP.
+<br>• Supported product documentation and business processing flow creation in Unicloud platform, enhanced clients’ product knowledge.
+<br>**Ant Financial Services Group, Alibaba Group** Remote 
+*Data Analyst Intern* January 2021 - March 2021
+<br>• Conducted anti-money laundry analysis using SQL and Python, collected user login device information, identified
+key features that flag foreign Alipay accounts.
+<br>• Built and productized business monitoring index system in Excel, created business models utilizing identified features,
+enhanced the Alipay risk control for hacking incidents, Black Market and Gray Market.
+<br>**Jinshang Bank Co., Ltd.** Taiyuan, China 
+*Risk Analysis Intern, Risk Control Department* October 2020 - January 2021 
+<br>• Conducted statistical analysis on transaction data and clients’ behavior data in SQL, used Machine Learning algorithm (Tree-based) in Python to create Risk-Based Customer Segmentation model and generated customer risk rating, supported the internal financial risk-control management system.
+
+## Academic Experience
+<br>**Cognitive Science Department, UCSD** San Diego, CA 
+<br>*Instructional Assistant in Data Science* January 2022 - March 2022 
+<br>• Held office hours and discussion sections, and assisted the professor with exam design and grading.
+
+
