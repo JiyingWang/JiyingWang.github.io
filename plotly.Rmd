@@ -1,0 +1,56 @@
+---
+title: "Plotly"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+```{r message=FALSE}
+library(tidyverse)
+library(plotly)
+library(p8105.datasets)
+library(dplyr)
+library(rnoaa)
+```
+
+## `Instacart` Visualization
+```{r}
+data(instacart)
+```
+
+```{r}
+plot1 = instacart |>
+  count(department) |>
+  mutate(department = fct_reorder(department, n, .desc = TRUE)) |>
+  plot_ly(x = ~department, y = ~n, color = ~department,
+          type = "bar", colors = "viridis")
+
+plot1
+```
+
+According to the plot, we can see that people reorder "produce" the most, followed by "dairy eggs".
+
+## `NY NOAA` Visualization
+
+```{r message = FALSE}
+df2 = read_csv("nynoaadat/nynoaadat.csv")
+```
+
+```{r}
+plot2 = df2 |>
+  mutate(date = format(date, format = "%Y%m%d")) |>
+  select(id, date, tmin, prcp) |>
+  drop_na(tmin) |>
+  filter(tmin < -300) |>
+  plot_ly(x = ~tmin, y = ~date, color = ~tmin,
+    type = "scatter", mode = "markers", alpha = 0.5)
+
+plot2
+```
+
+## `Restaurant Inspections` Visualization
+
+```{r}
+
+```
+

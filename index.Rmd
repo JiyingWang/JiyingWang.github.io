@@ -10,6 +10,7 @@ output:
 
 Links to the [Experiences](experiences.html) and [Projects](projects.html) page.
 
+Links to [Plotly](plotly.html) stuff.
 
 
 
