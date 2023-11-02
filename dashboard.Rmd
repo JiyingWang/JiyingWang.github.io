@@ -23,15 +23,14 @@ Column {data-width=650}
 ### Chart A
 
 ```{r}
-data(instacart)
+data(rest_inspec)
 
-plot1 = instacart |>
-  count(department) |>
-  mutate(department = fct_reorder(department, n, .desc = TRUE)) |>
-  plot_ly(x = ~department, y = ~n, color = ~department,
-          type = "bar", colors = "viridis")
+plot3 = rest_inspec |>
+  select(boro, cuisine_description, grade, score) |>
+  filter(grade == "C") |>
+  plot_ly(x = ~boro, y = ~score, color = ~cuisine_description, type = "box", colors = "viridis") 
 
-plot1
+plot3
 ```
 
 Column {data-width=350}
@@ -56,13 +55,14 @@ plot2
 ### Chart C
 
 ```{r}
-data(rest_inspec)
+data(instacart)
 
-plot3 = rest_inspec |>
-  select(boro, cuisine_description, grade, score) |>
-  filter(grade == "C") |>
-  plot_ly(x = ~boro, y = ~score, color = ~cuisine_description, type = "box", colors = "viridis") 
+plot1 = instacart |>
+  count(department) |>
+  mutate(department = fct_reorder(department, n, .desc = TRUE)) |>
+  plot_ly(x = ~department, y = ~n, color = ~department,
+          type = "bar", colors = "viridis")
 
-plot3
+plot1
 ```
 
