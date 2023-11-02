@@ -7,10 +7,22 @@ output:
     theme: cerulean
 ---
 
-# This is Claire's Personal Website
+# Welcome to Claire's Personal Website 
+
 
 
 # Academic and Professional Experience
+
+### Academic Experience
+
+**Columbia University** New York, NY  
+*Master of Biostatistics* September 2023 - May 2025. 
+
+**University of California San Diego** San Diego, CA  
+*Bachelor of Science Degree* September 2019 - June 2023
+
+### Professional Experience
+
 
 
 
